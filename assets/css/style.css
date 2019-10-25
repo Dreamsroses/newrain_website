@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.nav-contact{
+	text-align: right;
+	background-color: #003779;
+}
+
+.nav-contact__fono, .nav-contact__dir, .nav-contact__mail{
+	display: inline-block;
+	margin: 8px;
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+.navbar{
+	padding-top: 50px;
+}
+
+.logo__navbar{
+	width: 8vw;
+	height: auto;
+}
+
+.carrusel__img1{
+	max-width:100%;
+	height: auto;
+}
+.title__services{
+	text-align: center;
+	padding: 100px;
+}
+
+.slogan-contenedor{
+	padding: 150px 20px;
+}
+
+.title__slogan{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #003778;
+}
+
+.soluciones-contenedor{
+	text-align: center;
+	padding-top: 150px;
+}
+
+.soluciones__title{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+.button-hover:hover{
+	background-color: #005297;
+}
+
+
+.marcas__title{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+.logo-kyocera, .logo-xerox, .logo-konica, .logo-canon{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+transition-property: width;
+transition-duration: 2s;
+}
+
+.logo-kyocera:hover, .logo-xerox:hover, .logo-konica:hover, .logo-canon:hover{
+	-webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+filter: grayscale(0%);
+width: 55%;
+}
+
+.testimonio-contenedor{
+	padding-top: 150px;
+}
+
+.testimonios-title{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+
+footer{
+	background-color: #003779;
+	padding: 20px;
+	margin-top: 50px;
+	color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+	.logo__navbar{
+		width: 20vw;
+		height: auto;
+	}
+	.nav-contact{
+		text-align: left;
+	}
+	.logo-kyocera, .logo-xerox, .logo-konica, .logo-canon{
+		-webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+	filter: grayscale(0%);
+	}
+}
+
+@media screen and (max-width: 779px) {
+	.nav-contact__fono, .nav-contact__dir, .nav-contact__mail{
+		display: block;
+	}
+	.navbar{
+		padding-top: 110px;
+	}
+}
