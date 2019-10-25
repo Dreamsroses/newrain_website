@@ -18,7 +18,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,500i,600,700&display=swap" rel="stylesheet">
 
 	<!--fontawesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 	<!--Hoja de estilo-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -26,14 +26,14 @@
 	<title>Newrain | Soluciones Digitales</title>
 </head>
 
-<body>
+<body id="navbarNavDropdown" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 
-<div class="nav-contact fixed-top">
-	<p class="nav-contact__fono"><i class="fas fa-phone mx-2"></i>Fono: +56 22 8988925</p>
-	<p class="nav-contact__dir"><i class="fas fa-map-marker-alt mx-2"></i>Dirección: Av. del Valle Sur 601, of. 21, Huechuraba - Santiago, Chile</p>
-	<p class="nav-contact__mail"><i class="fas fa-envelope mx-2"></i>mail: csn@newrain.cl</p>
-</div>
+	<div class="nav-contact fixed-top">
+		<p class="nav-contact__fono"><i class="fas fa-phone mx-2"></i>Fono: +56 22 8988925</p>
+		<p class="nav-contact__dir"><i class="fas fa-map-marker-alt mx-2"></i>Dirección: Av. del Valle Sur 601, of. 21, Huechuraba - Santiago, Chile</p>
+		<p class="nav-contact__mail"><i class="fas fa-envelope mx-2"></i>mail: csn@newrain.cl</p>
+	</div>
 	<!--Navbar-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<a class="navbar-brand" href=><img class="logo__navbar" src="assets/img/nrlogo_Color.png"></a>
@@ -94,28 +94,37 @@
 	<!--/Carrusel-->
 
 
-	<!--Slogan -->
-	<div class="slogan-contenedor">
-		<h1 class="title__slogan"><i class="fas fa-file-import fa-2x mx-3"></i><i class="fas fa-quote-left mx-2"></i>Desarrollamos soluciones de Gestión Documental a su medida<i class="fas fa-quote-right mx-2"></i></h1>
+	<div class="container slogan-contenedor">
+		<div class="row">
+			<div class="col-sm-4 d-flex align-items-center justify-content-center">
+				<span class="slideanim"><i class="fas fa-file-import fa-9x"></i></span>
+			</div>
+			<div class="col-sm-8">
+				<div class="">
+					<h1 class="title__slogan"><i class="fas fa-quote-left mx-2"></i>Desarrollamos soluciones de Gestión Documental a su medida<i class="fas fa-quote-right mx-2"></i></h1>
+				</div>
+			</div>
+		</div>
 	</div>
-<!--/Slogan -->
+	<!--Slogan -->
+
+	<!--/Slogan -->
 
 	<!--Nuestras Soluciones-->
 	<div class="soluciones-contenedor">
 		<h1 class="soluciones__title">Nuestras Soluciones</h1>
-	</div>
 
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3 col-md-12 col-sm-12 my-4">
-				<img class="servicios__img1" src="https://picsum.photos/300.jpg" width="100%" height="auto">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<img class="servicios__img2" src="https://picsum.photos/300.jpg" width="100%" height="auto">
+				<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<a href="servicios.html"> <button type="button" class="btn btn-outline-secondary btn-lg button-hover">Ver más</button></a>
+				<a href="servicios.html"> <button type="button" class="btn btn-outline-secondary btn-lg button-hover">Ver más</button></a>
 			</div>
 			<div class="col-lg-3 col-md-12 col-sm-12 my-4">
 				<img class="servicios__img2" src="https://picsum.photos/300.jpg" width="100%" height="auto">
@@ -125,7 +134,7 @@
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<button type="button" class="btn btn-outline-secondary btn-lg button-hover">Ver más</button>
+				<button type="button" class="btn btn-outline-secondary btn-lg button-hover">Ver más</button>
 
 			</div>
 			<div class="col-lg-3 col-md-12 col-sm-12 my-4">
@@ -136,7 +145,7 @@
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<button type="button" class="btn btn-outline-secondary btn-lg button-hover">Ver más</button>
+				<button type="button" class="btn btn-outline-secondary btn-lg button-hover">Ver más</button>
 
 			</div>
 
@@ -148,87 +157,177 @@
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<button type="button" class="btn btn-outline-secondary btn-lg button-hover">Ver más</button>
+				<button type="button" class="btn btn-outline-secondary btn-lg button-hover">Ver más</button>
 
 			</div>
 		</div>
 	</div>
+</div>
+
 	<!--/Nuestras Soluciones-->
 
 
 	<!--Marcas-->
-	<section class="bg-light my-5">
+	<section class="marcas mt-5 py-5">
 		<h1 class="marcas__title pt-5">Marcas</h1>
-	<div class="container-fluid py-2">
-		<div class="row">
-			<div class="col-md-3 d-flex align-items-center justify-content-center">
-				<img class="logo-kyocera py-4" src="assets/img/Kyocera_logo.png" width="40%" height="auto">
-			</div>
-			<div class="col-md-3 d-flex align-items-center justify-content-center">
-				<img class="logo-xerox py-5" src="assets/img/xerox-logo.png" width="40%" height="auto">
+		<div class="container-fluid py-2">
+			<div class="row">
+				<div class="col-md-3 d-flex align-items-center justify-content-center">
+					<img class="logo-kyocera py-4" src="assets/img/Kyocera_logo.png" width="40%" height="auto">
+				</div>
+				<div class="col-md-3 d-flex align-items-center justify-content-center">
+					<img class="logo-xerox py-5" src="assets/img/xerox-logo.png" width="40%" height="auto">
 
-			</div>
-			<div class="col-md-3 d-flex align-items-center justify-content-center">
-				<img class="logo-konica" src="assets/img/Konica-logo.png" width="40%" height="auto">
+				</div>
+				<div class="col-md-3 d-flex align-items-center justify-content-center">
+					<img class="logo-konica" src="assets/img/Konica-logo.png" width="40%" height="auto">
 
-			</div>
-			<div class="col-md-3 d-flex align-items-center justify-content-center">
-				<img class="logo-canon py-3" src="assets/img/canon_logo.png" width="40%" height="auto">
+				</div>
+				<div class="col-md-3 d-flex align-items-center justify-content-center">
+					<img class="logo-canon py-3" src="assets/img/canon_logo.png" width="40%" height="auto">
 
+				</div>
 			</div>
-
 		</div>
-	</div>
-</section>
+	</section>
 	<!--/Marcas-->
 
 
+	<!--Nuestros Clientes-->
+<section class="clientes-contenedor">
+		<h1>Nuestros Clientes</h1>
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-sm-4">
+						<p class="text-center"><strong>Securitas</strong></p><br>
+						<img src="assets/img/clientes/securitas.png" class="img-circle" alt="Random Name" width="255" height="auto">
+					</div>
+					<div class="col-sm-4">
+						<p class="text-center"><strong>Name</strong></p><br>
+						<img src="https://picsum.photos/300.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+					</div>
+					<div class="col-sm-4">
+						<p class="text-center"><strong>Name</strong></p><br>
+						<img src="https://picsum.photos/300.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+					</div>
+				</div>
+			</div>
+
+	<div class="container text-center py-5">
+		<div class="row">
+			<div class="col-sm-4">
+				<p class="text-center"><strong>Name</strong></p><br>
+				<img src="https://picsum.photos/300.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+			</div>
+			<div class="col-sm-4">
+				<p class="text-center"><strong>Name</strong></p><br>
+				<img src="https://picsum.photos/300.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+			</div>
+			<div class="col-sm-4">
+				<p class="text-center"><strong>Name</strong></p><br>
+				<img src="https://picsum.photos/300.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+			</div>
+		</div>
+	</div>
+
+	<div class="container text-center py-5">
+		<div class="row">
+			<div class="col-sm-4">
+				<p class="text-center"><strong>Name</strong></p><br>
+				<img src="https://picsum.photos/300.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+			</div>
+			<div class="col-sm-4">
+				<p class="text-center"><strong>Name</strong></p><br>
+				<img src="https://picsum.photos/300.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+			</div>
+			<div class="col-sm-4">
+				<p class="text-center"><strong>Name</strong></p><br>
+				<img src="https://picsum.photos/300.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+			</div>
+		</div>
+	</div>
+</section>
+	<!--/Nuestros Clientes-->
+
 
 	<!-- Testimonos -->
-	<div class="testimonio-contenedor">
+	<section class="testimonio-contenedor bg-light">
 		<h1 class="testimonios-title">Testimonios</h1>
-	</div>
-
-		<div class="container">
-	  <div class="row">
-	    <div class="col-md-4">
-	      <img src="https://picsum.photos/100.jpg" class="" alt="..." width="70%" height="auto">
-	    </div>
-	    <div class="col-md-8">
-	      <div class="card-body">
-	        <h5 class="card-title">Card title</h5>
-	        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-
-
-	<div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-		<div class="col-md-4">
-			<img src="https://picsum.photos/100.jpg" class="" alt="..." width="70%">
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="https://picsum.photos/100.jpg" class="testimonio-cliente" alt="..." width="70%" height="auto">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
 		</div>
-  </div>
-</div>
-
-<!-- /Testimonos -->
+	</div>
 
 
-<footer>
-	<p>Newrain 2019 - Todos los derechos Reservados</p>
-</footer>
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img src="https://picsum.photos/100.jpg" class="testimonio-cliente" alt="..." width="70%">
+			</div>
+		</div>
+	</div>
 
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="https://picsum.photos/100.jpg" class="testimonio-cliente" alt="..." width="70%" height="auto">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container my-5">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img src="https://picsum.photos/100.jpg" class="testimonio-cliente" alt="..." width="70%">
+			</div>
+		</div>
+	</div>
+	</section>
+	<!-- /Testimonos -->
+
+
+	<footer class="text-right">
+		<a href="#navbarNavDropdown" title="To Top" class="p-5">
+			<i class="fas fa-chevron-circle-up fa-2x text-white"></i>
+		</a>
+		<p class="mt-3 p-4">Newrain 2019 - Todos los derechos Reservados</p>
+	</footer>
+
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -37,13 +37,13 @@ body{
 
 .slogan-contenedor{
 	padding: 150px 20px;
+		color: #003778;
 }
 
 .title__slogan{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	color: #003778;
 }
 
 .soluciones-contenedor{
@@ -60,6 +60,9 @@ body{
 	background-color: #005297;
 }
 
+.marcas{
+	background-color: #CCE8FF;
+}
 
 .marcas__title{
 	text-align: center;
@@ -74,14 +77,14 @@ transition-property: width;
 transition-duration: 2s;
 }
 
-.logo-kyocera:hover, .logo-xerox:hover, .logo-konica:hover, .logo-canon:hover{
+.logo-kyocera:hover, .logo-xerox:hover, .logo-konica:hover, .logo-canon:hover {
 	-webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
 filter: grayscale(0%);
 width: 55%;
 }
 
 .testimonio-contenedor{
-	padding-top: 150px;
+	padding: 150px 0;
 }
 
 .testimonios-title{
@@ -90,11 +93,18 @@ width: 55%;
 	font-weight: 700;
 }
 
+.testimonio-cliente{
+	border-radius: 50%;
+}
+
+.clientes-contenedor{
+	text-align: center;
+	padding: 100px 0;
+}
 
 footer{
 	background-color: #003779;
 	padding: 20px;
-	margin-top: 50px;
 	color: white;
 }
 
@@ -120,4 +130,39 @@ footer{
 	.navbar{
 		padding-top: 110px;
 	}
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+	animation-name: slide;
+	-webkit-animation-name: slide;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	visibility: visible;
+}
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateY(70%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@-webkit-keyframes slide {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(70%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0%);
+	}
+}
+
+/* Section Hablemos */
+
+.fa-mug-hot{
+	color: #005297;
 }
