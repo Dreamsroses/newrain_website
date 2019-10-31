@@ -4,9 +4,32 @@ body{
 	border: 0;
 }
 
+/* Navbar Contact */
 .nav-contact{
 	text-align: right;
 	background-color: #003779;
+}
+
+.mail-link{
+	text-decoration: none;
+	color: white;
+}
+
+.mail-link:hover{
+	color: #FBCEB5;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.contact-link{
+	text-decoration: none;
+	color: white;
+}
+
+.contact-link:hover{
+	color: #FBCEB5;
+	text-decoration: none;
+	font-weight: 500;
 }
 
 .nav-contact__fono, .nav-contact__dir, .nav-contact__mail{
@@ -16,6 +39,10 @@ body{
 	font-family: 'Raleway', sans-serif;
 	color: white;
 }
+
+/* Navbar Contact */
+
+
 
 .navbar{
 	padding-top: 50px;
@@ -102,12 +129,17 @@ width: 55%;
 	padding: 100px 0;
 }
 
+/* Footer */
 footer{
 	background-color: #003779;
 	padding: 20px;
 	color: white;
 }
 
+.social-icons i{
+	  text-decoration: none;
+		color: white;
+}
 
 @media screen and (max-width: 600px) {
 	.logo__navbar{
