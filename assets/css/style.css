@@ -4,6 +4,7 @@ body{
 	border: 0;
 }
 
+/* Index */
 /* Navbar Contact */
 .nav-contact{
 	text-align: right;
@@ -40,10 +41,8 @@ body{
 	color: white;
 }
 
-/* Navbar Contact */
 
-
-
+/* Navbar */
 .navbar{
 	padding-top: 50px;
 }
@@ -53,15 +52,14 @@ body{
 	height: auto;
 }
 
+/* carrusel */
 .carrusel__img1{
 	max-width:100%;
 	height: auto;
 }
-.title__services{
-	text-align: center;
-	padding: 100px;
-}
 
+
+/* Slogan */
 .slogan-contenedor{
 	padding: 150px 20px;
 		color: #003778;
@@ -73,6 +71,8 @@ body{
 	font-weight: 300;
 }
 
+
+/* Nuestras Soluciones */
 .soluciones-contenedor{
 	text-align: center;
 	padding-top: 150px;
@@ -87,6 +87,13 @@ body{
 	background-color: #005297;
 }
 
+.soluciones-printer, .servicios__img3{
+	width: 60%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+/* Marcas */
 .marcas{
 	background-color: #CCE8FF;
 }
@@ -110,6 +117,8 @@ filter: grayscale(0%);
 width: 55%;
 }
 
+
+/* Testimonios */
 .testimonio-contenedor{
 	padding: 150px 0;
 }
@@ -124,6 +133,8 @@ width: 55%;
 	border-radius: 50%;
 }
 
+
+/* Nuestros Clientes */
 .clientes-contenedor{
 	text-align: center;
 	padding: 100px 0;
@@ -193,8 +204,9 @@ footer{
 	}
 }
 
-/* Section Hablemos */
 
+
+/* Section Hablemos */
 .fa-mug-hot{
 	color: #005297;
 }
