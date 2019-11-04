@@ -215,6 +215,16 @@ footer{
 }
 
 
+/* Quienes Somos */
+.nosotros-hero{
+	width: auto;
+	height: 600px;
+	background-image: url(../img/sobre-nosotros.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
 
 /* Section Hablemos */
 .fa-mug-hot{
