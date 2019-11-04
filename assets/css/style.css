@@ -61,7 +61,7 @@ body{
 
 /* Slogan */
 .slogan-contenedor{
-	padding: 150px 20px;
+	padding: 200px 20px 80px 20px;
 		color: #003778;
 }
 
@@ -75,7 +75,7 @@ body{
 /* Nuestras Soluciones */
 .soluciones-contenedor{
 	text-align: center;
-	padding-top: 150px;
+	padding: 150px 0;
 }
 
 .soluciones__title{
@@ -87,8 +87,8 @@ body{
 	background-color: #005297;
 }
 
-.soluciones-printer, .servicios__img3{
-	width: 60%;
+.soluciones-printer, .gestion-doc, .digitalizacion, .soluciones{
+	width: 40%;
 	height: auto;
 	margin-bottom: 20px;
 }
@@ -120,7 +120,7 @@ width: 55%;
 
 /* Testimonios */
 .testimonio-contenedor{
-	padding: 150px 0;
+	padding: 50px 0;
 }
 
 .testimonios-title{
@@ -140,9 +140,19 @@ width: 55%;
 	padding: 100px 0;
 }
 
+.clientes-title{
+	font-family: 'Raleway', sans-serif;
+font-weight: 700;
+}
+
+.clientes-img{
+	width: 20vw;
+}
+
+
 /* Footer */
 footer{
-	background-color: #003779;
+		background-color: #003779;
 	padding: 20px;
 	color: white;
 }
