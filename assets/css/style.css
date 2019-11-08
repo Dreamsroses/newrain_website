@@ -58,6 +58,10 @@ body{
 	height: auto;
 }
 
+.carousel-button-promo{
+	padding-left: 56vw;
+}
+
 
 /* Slogan */
 .slogan-contenedor{
@@ -173,6 +177,9 @@ footer{
 	.logo-kyocera, .logo-xerox, .logo-konica, .logo-canon{
 		-webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
 	filter: grayscale(0%);
+	}
+	.carousel-button-promo{
+		padding-left: 10vw;
 	}
 }
 
@@ -290,4 +297,10 @@ footer{
 /* Section Hablemos */
 .fa-mug-hot{
 	color: #005297;
+}
+
+/* Section Promo */
+
+.oferta-mes{
+	color: #063a76;
 }
