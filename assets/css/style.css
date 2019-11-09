@@ -304,3 +304,11 @@ footer{
 .oferta-mes{
 	color: #063a76;
 }
+
+.img-promo{
+	background-image: url(../img/promo/ecosys-m3655.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 320px;
+}
