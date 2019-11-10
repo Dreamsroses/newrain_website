@@ -29,26 +29,45 @@
 <body>
 
 	<div class="nav-contact fixed-top">
-		<p class="nav-contact__fono"><i class="fas fa-phone mx-2"></i>Fono: +56 22 8988925</p>
+		<p class="nav-contact__fono"><i class="fas fa-phone mx-2"></i>Fono: +56 2 3252 9370</p>
 		<p class="nav-contact__dir"><i class="fas fa-map-marker-alt mx-2"> </i>Dirección: <a class="contact-link" href="https://goo.gl/maps/yFhveHCzGjAqVQCYA">Av. del Valle Sur 601, of. 21, Huechuraba - Santiago, Chile</a></p>
-		<p class="nav-contact__mail"><i class="fas fa-envelope mx-2"></i>mail: <a class="mail-link" href="mailto:csn@newrain.cl">csn@newrain.cl</a></p>
+		<p class="nav-contact__mail"><i class="fas fa-envelope mx-2"></i>mail: <a class="mail-link" href="mailto:contacto@newrain.cl">contacto@newrain.cl</a></p>
 	</div>
 
 
 	<!--Navbar-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarNavDropdown" data-spy="scroll" data-target=".navbar" data-offset="60">
 		<a class="navbar-brand" href="index.html"><img class="logo__navbar" src="assets/img/nrlogo_Color.png"></a>
+
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item m-4">
 					<a class="nav-link" href="index.html">Home</a>
 				</li>
-				<li class="nav-item m-4 active">
-					<a class="nav-link" href="soluciones.html">Nuestras Soluciones<span class="sr-only">(current)</span></a>
+
+				<li class="nav-item dropdown m-4 active">
+					<a class="nav-link dropdown-toggle" href="soluciones.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Nuestras Soluciones<span class="sr-only">(current)</span>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="factura.html">Modulo de Facturas</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="notaria.html">Modulo de Notaria</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="pruebas.html">Modulo de Pruebas</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="gestion.html">Sistema de impresión Gestionado</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="documental.html">Gestión Documental</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="digitalizacion.html">Digitalizacion Inteligente</a>
+					</div>
 				</li>
+
 				<li class="nav-item m-4">
 					<a class="nav-link" href="quienes_somos.html">Quiénes somos</a>
 				</li>

@@ -224,11 +224,11 @@ footer{
 /* Section Soluciones */
 .soluciones-hero{
 	width: auto;
-	height: 450px;
+	height: 370px;
 	background-image: url(../img/soluciones/soluciones.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom center;
+	background-position: center center;
 }
 
 .soluciones-title{
@@ -242,7 +242,9 @@ footer{
 }
 
 .soluciones-medida{
-	margin: 150px 0;
+	margin: 50px 0;
+	font-weight: 700;
+	color: #063a76;
 }
 
 
@@ -256,7 +258,7 @@ footer{
 /* Section Quienes Somos */
 .nosotros-hero{
 	width: auto;
-	height: 450px;
+	height: 370px;
 	background-image: url(../img/sobre-nosotros.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -277,7 +279,7 @@ footer{
 /* Section Casos de exito */
 .casos-hero{
 	width: auto;
-	height: 450px;
+	height: 370px;
 	background-image: url(../img/img1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
