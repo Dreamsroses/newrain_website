@@ -4,6 +4,46 @@ body{
 	border: 0;
 }
 
+/* back to Top */
+
+#back-to-top {
+  display: inline-block;
+  background-color: #005297;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#back-to-top::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#back-to-top:hover {
+  cursor: pointer;
+  background-color: #003779;
+}
+#back-to-top:active {
+  background-color: #555;
+}
+#back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
 /* Index */
 /* Navbar Contact */
 .nav-contact{
@@ -65,21 +105,32 @@ body{
 
 /* Slogan */
 .slogan-contenedor{
-	padding: 200px 20px 80px 20px;
-		color: #003778;
+	padding: 120px 20px 30px 20px;
+	color: #003778;
 }
 
 .title__slogan{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
+	font-weight: 600;
 }
 
+.right-quote, .left-quote{
+	width: 4vw;
+}
+
+.slogan-arrow-img{
+	width: 40%;
+}
+
+.slogan-contenedor-arrow{
+	padding: 10px 20px 50px 20px;
+}
 
 /* Nuestras Soluciones */
 .soluciones-contenedor{
 	text-align: center;
-	padding: 150px 0;
+	padding: 100px 0;
 }
 
 .soluciones__title{
@@ -146,13 +197,19 @@ width: 55%;
 
 .clientes-title{
 	font-family: 'Raleway', sans-serif;
-font-weight: 700;
+	font-weight: 700;
 }
 
 .clientes-img{
 	width: 20vw;
 }
 
+/* Certificaciones */
+.certificaciones-title{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
 
 /* Footer */
 footer{
@@ -203,7 +260,7 @@ footer{
 @keyframes slide {
 	0% {
 		opacity: 0;
-		transform: translateY(70%);
+		transform: translateY(50%);
 	}
 	100% {
 		opacity: 1;
@@ -313,4 +370,9 @@ footer{
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 320px;
+}
+
+/* Section blog */
+.noticia{
+	margin: 50px 0;
 }
