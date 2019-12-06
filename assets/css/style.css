@@ -23,7 +23,7 @@ body{
   z-index: 1000;
 }
 #back-to-top::after {
-  content: "\f077";
+  content: url(../img/chevron-arrow-up.png);
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
@@ -211,6 +211,11 @@ width: 55%;
 	font-weight: 700;
 }
 
+.certificaciones-contenedor{
+	text-align: center;
+	padding: 100px 0;
+}
+
 /* Footer */
 footer{
 		background-color: #003779;
@@ -299,6 +304,12 @@ footer{
 }
 
 .soluciones-medida{
+	margin: 50px 0 30px 0;
+	font-weight: 700;
+	color: #063a76;
+}
+
+.soluciones-tradicionales{
 	margin: 50px 0;
 	font-weight: 700;
 	color: #063a76;
@@ -310,6 +321,16 @@ footer{
 		width: 25%;
 		margin-right: 15%;
 	}
+}
+
+
+.soluciones-facturacion{
+	width: auto;
+	height: 370px;
+	background-image: url(../img/soluciones/facturacion.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 /* Section Quienes Somos */
